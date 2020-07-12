@@ -73,12 +73,15 @@ Because the p-value of our linear regression analysis is 5.35e-11, which is much
   </thead>
   <tbody>
     <tr>
-      <td>r squared</td>
+      <td>r-squared</td>
       <td>0.7149/td>
     </tr>
     <tr>
       <td>p-value</td>
       <td>5.35e-11/td>
     </tr>
+  </tbody>
+</table>
 
-# Suspension Coil Analysis
+
+## Suspension Coil Analysis
