@@ -8,7 +8,9 @@ The regression analysis of auto mpg data generated the following regression equa
 
 MPG = 6.267 x Vehicle Length + 3.546 x Ground Clearance + 0.001245 Vehicle Weight - 3.411 AWD + 0.06877 x Spoiler Angle - 0.01040
 
-The linear regression data shows that these varable have the most accuracy in predicting MPG value and have the lowest propability of contributing a random amount of variance to the linear model.
+The linear regression data shows that Vehicle Length and Ground Clearance have the most accuracy in predicting the MPG value for a vehicle and have the lowest propability of contributing a random amount of variance to the linear model. Vehicle Weight is a less accurate variable but potentially useful for predicting MPG value for a Vehicle. The All Wheel Drive and Spoiler Angle variable produced the most random variable in the MPG linear module. The statistically significants of the intercept indicated that there are other variables and factors that contribute to the variation in vehicle MPG value that have not been included in this model.
+
+#### Data
 
 <table>
   <thead>
