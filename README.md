@@ -75,11 +75,11 @@ The r-squared value is 0.7149, which means that roughly 71% of all vehicle MPG p
 
 The null hypothosis states that 
 
-H0 : The slope of the linear model is zero, or m = 0
+* Ho : The slope of the linear model is zero, or m = 0
 
 while the alternative hypothosis states that
 
-Ha : The slope of the linear model is not zero, or m ≠ 0
+* Ha : The slope of the linear model is not zero, or m ≠ 0
 
 Because the p-value of our linear regression analysis is 5.35e-11, which is much smaller than our assumed significance level of 0.05%, there is sufficient evidence to reject the null hypothesis, which means that the slope of our linear model is not zero.
 
