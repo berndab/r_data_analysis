@@ -51,7 +51,7 @@
 <table>
   <thead>
     <tr>
-      <td>Linear Variable Name</td>
+      <td></td>
       <td>Value</td>
     </tr>
   </thead>
@@ -94,7 +94,7 @@ Because the p-value of our linear regression analysis is 5.35e-11, which is much
 <table>
   <thead>
     <tr>
-      <td>Statistical Variable Name</td>
+      <td></td>
       <td>Value</td>
     </tr>
   </thead>
@@ -191,4 +191,52 @@ The PSI data for the three different coil production lots were compared using th
 
 #### Data
 
+<table>
+  <thead>
+    <tr>
+      <td></td>
+      <td>Lot 1</td>
+      <td>Lot 2</td>
+      <td>Lot 3</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mean PSI</td>
+      <td>1500</td>
+      <td>1500.2</td>
+      <td>1496.14</td>
+    </tr>
+    <tr>
+      <td>Median PSI</td>
+      <td>1500</td>
+      <td>1500</td>
+      <td>1498.5</td>
+    </tr>
+    <tr>
+      <td>Variance PSI^2</td>
+      <td>0.9795</td>
+      <td>7.469</td>
+      <td>170.28</td>
+    </tr>
+    <tr>
+      <td>Standard Deviation PSI</td>
+      <td>0.9897</td>
+      <td>2.733</td>
+      <td>13.04</td>
+   </tr>
+    <tr>
+      <td>Min PSI</td>
+      <td>1498</td>
+      <td>1494</td>
+      <td>1452</td>
+    </tr>
+    <tr>
+      <td>Max PSI</td>
+      <td>1502</td>
+      <td>1506</td>
+      <td>1542</td>
+    </tr>
+  </tbody>
+</table>
 
