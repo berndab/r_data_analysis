@@ -247,3 +247,24 @@ The coil PSI data for the three different coil production lots were compared usi
 Lot 3 has a standard deviation that is 4 times as large as lot 2 and 13 times as large as lot 1. The lot 3 minimum PSI value is about 50 PSI smaller than that of lot 1 and 2 and the lot 3 maximum value is about 40 PSI larger than that of lot 1 and lot 2. Most of the variation in the coil PSI statistics is due to the significantly larger variation in PSI for the coils in lot 3. This indicates that the manufacturing process or raw materials used to produce the lot 3 coils contains deficiencies that need to be rectified.
 
 ## Additional Study Design
+
+Since part of the study focused on predicting the MPG for different prototypes of the MechaCar, it can be assumed that the car is being designed to complete in the high efficiency segment of the car market where the a car models MPG value positively affect car sales. The goal then is to design a MechaCar with a MPG value that will generate the most sales and profit. 
+
+The current study used variables, such as all-wheel drive and spoiler angle, which did not aid the predictability of the linear regression model for MPG value. In addition, the intercept had a high statistically significance in the linear regression model that indicates that other variable that are not being measures have a more statistically significant then the all-wheel drive and spoiler angle variables. 
+
+The proposal is to redesign the study by dropping the all-wheel drive and spoiler angle variables and add the car height variable. From basic aerodynamic principles, car height is a significant contributor to a vehicle drag which is directly related to the cars MPG value. 
+
+If the prototypes models still exist, the height of the prototype cars can be measure and a new multiple linear regression model can be generated. 
+
+The hypothesizes to test would be
+* Ho: Car height has no statistical effect on MPG
+* Ha: Car height has a statistical effect on MGP
+
+The multiple linear regression model will generate a Pr(>|t|) for car height which will indicate how statistically significant the variable is to predict the prototype's MPG value. Also, if the generated coefficient of the height variable is negative, it will show that car height negatively effects the prototypes’ MPG.
+
+If this redesigned model is successful it can be applied to the whole fuel-efficient cars market. However, instead of using the car’s physical variables to predict MPG, the model with these physical care variable will be applied to see how well these variables predicted sales volume and profitability of all the cars that currently make up the fuel efficient car market.
+
+The hypothesizes to be tested are
+* Ho: Cars with high MPG are have the highest sales and the highest profit margins
+* Ha: Cars with high MPG do not have the highest sales and the highest profit margins
+
