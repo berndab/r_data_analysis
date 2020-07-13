@@ -260,7 +260,7 @@ The hypothesizes to test would be
 * Ho: Car height has no statistical effect on MPG
 * Ha: Car height has a statistical effect on MGP
 
-The multiple linear regression model will generate a Pr(>|t|) for car height variable which will indicate how statistically significant the variable is to predict the prototype's MPG value. Also, if the generated coefficient of the height variable is negative, it will show that car height negatively effects the prototypes’ MPG.
+The multiple linear regression model will generate a Pr(>|t|) for car height variable which will indicate how statistically significant the variable is to predict the prototype's MPG value. Also, if the generated coefficient of the height variable is negative, it will show that car height negatively effects the prototypes’ MPG. In addition, r-squared variable will be examimed for the model to see if it increased and the p-value will be examined to see if it decreases. If the height variable has a statistically significant Pr(>|t|), the r-squared value increased and the p-value decreases then the null hypothosis will be disproven and the alternate hypothosis will be accepted. 
 
 If this redesigned model is successful it can be applied to the whole fuel-efficient cars market. However, instead of using the car’s physical variables to predict MPG, this part of the study will look at how a car's MPG predict sales volume and profitability. This can be applied to all the cars that currently make up the fuel efficient car market.
 
