@@ -1,4 +1,4 @@
-# Auto Analysis
+# MechaCar Auto Analysis
 
 ## MPG Analysis
 
@@ -56,11 +56,11 @@
   <tbody>
     <tr>
       <td>r-squared</td>
-      <td>0.7149/td>
+      <td>0.7149</td>
     </tr>
     <tr>
       <td>p-value</td>
-      <td>5.35e-11/td>
+      <td>5.35e-11</td>
     </tr>
   </tbody>
 </table>
@@ -84,3 +84,39 @@ while the alternative hypothosis states that
 Because the p-value of our linear regression analysis is 5.35e-11, which is much smaller than our assumed significance level of 0.05%, there is sufficient evidence to reject the null hypothesis, which means that the slope of our linear model is not zero.
 
 ## Suspension Coil Analysis
+
+#### Statistical Data
+<table>
+  <thead>
+    <tr>
+      <td>Name</td>
+      <td>Value</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mean</td>
+      <td>1498.78 PSI</td>
+    </tr>
+    <tr>
+      <td>Median</td>
+      <td>1500 PSI</td>
+    </tr>
+    <tr>
+      <td>Variance</td>
+      <td>62.29 PSI</td>
+    </tr>
+    <tr>
+      <td>Standard Deviation</td>
+      <td>7.89 PSI</td>
+    </tr>
+    <tr>
+      <td>Min</td>
+      <td>1452 PSI</td>
+    </tr>
+    <tr>
+      <td>Max</td>
+      <td>1542 PSI</td>
+    </tr>
+  </tbody>
+</table>
