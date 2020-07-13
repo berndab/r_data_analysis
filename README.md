@@ -244,27 +244,48 @@ The coil PSI data for the three different coil production lots were compared usi
 
 ### Analysis
 
+
 Lot 3 has a standard deviation that is 4 times as large as lot 2 and 13 times as large as lot 1. The lot 3 minimum PSI value is about 50 PSI smaller than that of lot 1 and 2 and the lot 3 maximum value is about 40 PSI larger than that of lot 1 and lot 2. Most of the variation in the coil PSI statistics is due to the significantly larger variation in PSI for the coils in lot 3. This indicates that the manufacturing process or raw materials used to produce the lot 3 coils contains deficiencies that need to be rectified.
+
 
 ## Additional Study Design
 
-Since part of the study focused on predicting the MPG for different prototypes of the MechaCar, it can be assumed that the car is being designed to complete in the high efficiency segment of the car market where the a car's MPG value positively affect car sales and the car's profit margin. The goal then is to design a MechaCar with a MPG value that will generate the most sales and profit. 
+Since part of the study focused on predicting the MPG for different prototypes of the MechaCar, it can be assumed that the vehicle is being designed to complete in the fuel-efficient segment of the car market where the a vehicle’s MPG value effects sales volume and the profit margin. The goal then is to design a MechaCar with an MPG value that will generate the most sales and profit.
 
-The current study used variables, such as all-wheel drive and spoiler angle, which did not aid the predictability of the linear regression model for the prototype's MPG value. In addition, the intercept had a high statistically significance in the linear regression model that indicates that other variable not being measured have a more statistically significant effect then the all-wheel drive and spoiler angle variables on predictiing a prototype's MPG value. 
+The current study used variables, such as all-wheel drive and spoiler angle, which did not enhance the linear regression model’s ability to predict a prototype's MPG value. In addition, the model’s intercept had a high statistically significance which indicates that other variables, not being measured, have a  more statistically significant effect on the model’s predictability then the all-wheel drive and spoiler angle variables.
 
-The proposal is to redesign the study by dropping the all-wheel drive and spoiler angle variables and adding the car height variable. From basic aerodynamic principles, car height is a significant contributor to a vehicle drag which is directly related to the car's MPG value. 
+The proposal is to redesign the study by dropping the all-wheel drive and spoiler angle variables from the model and adding the vehicle’s height as a model variable. From basic aerodynamic principles, car height is a significant contributor to a vehicle drag which directly effects a vehicle's MPG value.
 
-If the prototypes models still exist, the height of the prototype cars can be measure and a new multiple linear regression model can be generated. 
+If the prototypes models still exist, the height of the prototype cars can be measure easily and a new multiple linear regression model can be generated using the height variable. 
 
-The hypothesizes to test would be
-* Ho: Car height has no statistical effect on MPG
-* Ha: Car height has a statistical effect on MGP
+To test if the height variable increased the predictability of the linear model, the following hypothesizes would be tested 
 
-The multiple linear regression model will generate a Pr(>|t|) for car height variable which will indicate how statistically significant the variable is to predict the prototype's MPG value. Also, if the generated coefficient of the height variable is negative, it will show that car height negatively effects the prototypes’ MPG. In addition, r-squared variable will be examimed for the model to see if it increased and the p-value will be examined to see if it decreases. If the height variable has a statistically significant Pr(>|t|), the r-squared value increased and the p-value decreases then the null hypothosis will be disproven and the alternate hypothosis will be accepted. 
+* Ho: Car height has no statistical effect on a prototype car’s MPG value
+* Ha: Car height has a statistical effect on a prototype car’s MPG value
 
-If this redesigned model is successful it can be applied to the whole fuel-efficient cars market. However, instead of using the car’s physical variables to predict MPG, this part of the study will look at how a car's MPG predict sales volume and profitability. This can be applied to all the cars that currently make up the fuel efficient car market.
+The multiple linear regression model will generate a Pr(>|t|) for the new vehicle height variable, and r-squared variable for the new model, and a p-value for the new model.
 
-The hypothesizes to be tested are
-* Ho: Cars with high MPG are have the highest sales and the highest profit margins
-* Ha: Cars with high MPG do not have the highest sales and the highest profit margins
 
+If following conditions are true for the new model with the vehicle height variable, then the null hypothesis is rejected
+* The height variable has a statistically significant Pr(>|t|) value
+* The r-squared value increased 
+* The p-value decreases
+
+
+If this redesigned model is successful in predicting a prototype’s MPG, then additional study tests can be performed. The fuel-efficient vehicle market can be analyzed to determine how a vehicle’s MPG effect the sales volume and profit margin of each vehicle in the market. Two tests can be design. One that looks at the MPG to sales volume relationship and one that looks at the MPG to profit margin relationship. A single linear regression model will be used for both testes .
+
+
+For the MPG to sales volume relationship, the following hypothesizes will be used
+* Ho: The vehicle’s MPG value is a significant predictor of a fuel-efficient vehicle’s sales volume
+* Ha: The vehicle’s MPG value is NOT a significant predictor of a fuel-efficient vehicle’s sales volume
+
+If the r-squared value of the model is greater than or equal to  0.8 and the p value of the model is less than or equal to 0.05, the null hypothesis is rejected.
+
+
+For the MPG to profit margin relationship, the following hypothesizes will be used
+* Ho: The vehicle’s MPG value is a significant predictor of a fuel-efficient vehicle’s profit margin
+* Ha: The vehicle’s MPG value is NOT a significant predictor of a fuel-efficient vehicle’s profit margin
+
+If the r-squared value of the model is greater than or equal to  0.8 and the p value of the model is less than or equal to 0.05, the null hypothesis is rejected.
+
+Depending on the results of the test of MPG to sales volume and MPG to profit margins,  additional study tests can be done to determine the MPG value that maximizes a fuel-efficient car's sales volume and the MPG value that maximized a a fuel-efficient car's profit margin.
