@@ -288,4 +288,3 @@ For the MPG to profit margin relationship, the following hypothesizes will be us
 
 If the r-squared value of the model is greater than or equal to  0.8 and the p value of the model is less than or equal to 0.05, the null hypothesis is rejected.
 
-Depending on the results of the test of MPG to sales volume and MPG to profit margins,  additional study tests can be done to determine the MPG value that maximizes a fuel-efficient car's sales volume and the MPG value that maximized a a fuel-efficient car's profit margin.
