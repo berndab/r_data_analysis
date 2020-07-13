@@ -2,7 +2,7 @@
 
 ## MPG Analysis
 
-#### Multiple Linear Regression Data
+#### Data
 
 <table>
   <thead>
@@ -89,7 +89,7 @@ Because the p-value of our linear regression analysis is 5.35e-11, which is much
 
 ## Suspension Coil PSI Analysis
 
-#### PSI Statistical Data
+#### Data
 
 <table>
   <thead>
@@ -132,13 +132,9 @@ The suspension coil data shows that the variance of the suspension coils does no
 
 ## One Sample T-Test
 
+#### Data
+
 <table>
-  <thead>
-    <tr>
-      <td>T- Test Variable Name</td>
-      <td>Value</td>
-    </tr>
-  </thead>
   <tbody>
     <tr>
       <td>p-value</td>
@@ -147,6 +143,8 @@ The suspension coil data shows that the variance of the suspension coils does no
   </tbody>
 </table>
 
+### Analysis
+
 The t-test hypothosises are
 
 * Ho : There is no statistical difference between the observed sample mean and its presumed population mean.
@@ -154,7 +152,9 @@ The t-test hypothosises are
 
 The results of the t-test show that the p-value is 0.4289, which is about the standard significance level 0.05. Therefore, there is not sufficient evidence in the sample data to reject the null hypothesis and he two means are statistically similar.
 
-### Two Sample T-Test Data Comparing Lots
+## Two Sample T-Test Data Comparing Lots
+
+#### Data
 
 <table>
   <thead>
@@ -183,6 +183,8 @@ The results of the t-test show that the p-value is 0.4289, which is about the st
   </tbody>
 </table>
 
+### Analysis
+
 The PSI data for the three different coil production lots were compared using the two sample t-test. The two sample t-test between the data from lot 1 and lot 2 had a p-value of 0.6283 which was not sufficient to reject the null hypothoiss that there is no statistical difference between the two observed sample means. However, the two sample t-test between lot 1 and lot 3 had a p-value of 0.04218 which is significant enought to reject the null hypothosis and accept the alterative hypothosis that there is a statistical difference between the two observed sample means. Applying the two sample t-test between lot 2 and lot 2 returned a p-value of 0.03584 which is also significant to accept the alternative hypothosis that there is a statistical difference between the two sample means. 
 
-Looking at the statistical data for each lot 
+## Lot PSI Variation Analysis
