@@ -129,7 +129,7 @@ Because the p-value of our linear regression analysis is 5.35e-11, which is much
 
 ### Analysis
 
-The suspension coil data shows that the variance of the suspension coils does not exceed 100 PSI. This fact is confirmed by two values. First standard deviation of the coil PSI is 7.89 PSI and since 99.73% of the values will be withing +/-3 standard deviations of the mean that 99.73% of the values fall withing the range of 1,475.11 and 1,522.45 PSI which well wihting the +- 100 PSI design limit. Also the coil minimun PSI is 1452 and the maximun PSI is 1542 which means that there are no outliers outside the 99.73% of data within three standared deviations that exeed the design variance of 100 PSI. 
+The suspension coil statistical data shows that the variance of the suspension coils does not exceed 100 PSI. This fact is confirmed by two values. First standard deviation of the coil PSI is 7.89 PSI and since 99.73% of the values will be withing +/-3 standard deviations of the mean, that 99.73% of the values fall withing the range of 1,475.11 and 1,522.45 PSI which well within the +- 100 PSI design limit. Also, the coil minimum PSI is 1452 and the maximum PSI is 1542 which means that there are no outliers outside three standard deviations that exceed the design variance of +/- 100 PSI.
 
 ## Suspension Coil PSI One Sample T-Test
 
