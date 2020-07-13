@@ -263,7 +263,7 @@ To test if the height variable increased the predictability of the linear model,
 * Ho: Car height has no statistical effect on a prototype car’s MPG value
 * Ha: Car height has a statistical effect on a prototype car’s MPG value
 
-The multiple linear regression model will generate a Pr(>|t|) for the new vehicle height variable, and r-squared variable for the new model, and a p-value for the new model.
+The new multiple linear regression model will generate a new Pr(>|t|) for the new vehicle height variable, and a new r-squared variable for the new model, and a new p-value for the new model.
 
 
 If following conditions are true for the new model with the vehicle height variable, then the null hypothesis is rejected
