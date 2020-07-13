@@ -71,21 +71,22 @@
 
 The regression analysis of auto mpg data generated the following regression equation
 
-MPG = 6.267 x Vehicle Length + 3.546 x Ground Clearance + 0.001245 Vehicle Weight - 3.411 AWD + 0.06877 x Spoiler Angle - 0.01040
+* MPG = 6.267 x Vehicle Length + 3.546 x Ground Clearance + 0.001245 Vehicle Weight - 3.411 AWD + 0.06877 x Spoiler Angle - 0.01040
 
-The linear regression data shows that Vehicle Length and Ground Clearance have the most accuracy in predicting the MPG value for a vehicle and have the lowest propability of contributing a random amount of variance to the linear model. Vehicle Weight is a less accurate variable but potentially useful for predicting MPG value for a Vehicle. The All Wheel Drive and Spoiler Angle variable produced the most random variable in the MPG linear module. The statistically significants of the intercept indicated that there are other variables and factors that contribute to the variation in vehicle MPG value that have not been included in this model. 
 
-The r-squared value is 0.7149, which means that roughly 71% of all vehicle MPG predictions will be correct when using this linear model. 
+The linear regression data shows that Vehicle Length and Ground Clearance are the most accuracy in predicting the MPG value for a vehicle and have the lowest probability of contributing a random amount of variance to the linear model. Vehicle Weight is less accurate but potentially useful for predicting MPG value for a vehicle. The All-Wheel Drive and Spoiler Angle variables produced orders of magnitude less accurate than the two most accurate variable and contribute the most to the random variance of the linear model. The statistically significance of the intercept value indicated that there are other variables and factors not in the model that contribute to the variation in vehicle MPG value.
 
-The null hypothosis states that 
 
+The r-squared value is of the multiple linear regression model is 0.7149, which means that roughly 71% of all vehicle MPG predictions made by the model will be correct.
+
+
+The slope hypothesizes are
 * Ho : The slope of the linear model is zero, or m = 0
-
-while the alternative hypothosis states that
-
 * Ha : The slope of the linear model is not zero, or m ≠ 0
 
-Because the p-value of our linear regression analysis is 5.35e-11, which is much smaller than our assumed significance level of 0.05%, there is sufficient evidence to reject the null hypothesis, which means that the slope of our linear model is not zero.
+
+Because the p-value of our linear regression analysis is 5.35e-11, which is much smaller than the significance level of 0.05%, there is sufficient evidence to reject the null hypothesis and conclude that the slope of our linear model is not zero.
+
 
 ## Suspension Coil PSI Analysis
 
