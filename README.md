@@ -146,12 +146,13 @@ The suspension coil statistical data shows that the variance of the suspension c
 
 ### Analysis
 
-The t-test hypothosises are
+The t-test hypothesizes are
 
-* Ho : There is no statistical difference between the observed sample mean and its presumed population mean.
-* Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
+*	Ho : There is no statistical difference between the observed sample mean and its presumed population mean.
+*	Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
 
-The results of the t-test show that the p-value is 0.4289, which is about the standard significance level 0.05. Therefore, there is not sufficient evidence in the sample data to reject the null hypothesis and he two means are statistically similar.
+The results of the t-test show that the p-value is 0.4289, which is above the standard significance level 0.05. Therefore, there is not sufficient evidence in the sample data to reject the null hypothesis and the two means are statistically similar.
+
 
 ## Suspension Coil PSI Two Sample T-Test Analysis
 
