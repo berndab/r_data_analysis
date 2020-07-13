@@ -46,6 +46,8 @@
   </tbody>
 </table>
 
+#### Additional Data
+
 <table>
   <thead>
     <tr>
@@ -65,6 +67,8 @@
   </tbody>
 </table>
 
+### Analysis
+
 The regression analysis of auto mpg data generated the following regression equation
 
 MPG = 6.267 x Vehicle Length + 3.546 x Ground Clearance + 0.001245 Vehicle Weight - 3.411 AWD + 0.06877 x Spoiler Angle - 0.01040
@@ -83,9 +87,9 @@ while the alternative hypothosis states that
 
 Because the p-value of our linear regression analysis is 5.35e-11, which is much smaller than our assumed significance level of 0.05%, there is sufficient evidence to reject the null hypothesis, which means that the slope of our linear model is not zero.
 
-## Suspension Coil Analysis
+## Suspension Coil PSI Analysis
 
-#### Statistical Data
+#### Data
 <table>
   <thead>
     <tr>
@@ -121,11 +125,11 @@ Because the p-value of our linear regression analysis is 5.35e-11, which is much
   </tbody>
 </table>
 
-### PSI Variance Data
+### Analysis
 
 The suspension coil data shows that the variance of the suspension coils does not exceed 100 PSI. This fact is confirmed by two values. First standard deviation of the coil PSI is 7.89 PSI and since 99.73% of the values will be withing +/-3 standard deviations of the mean that 99.73% of the values fall withing the range of 1,475.11 and 1,522.45 PSI which well wihting the +- 100 PSI design limit. Also the coil minimun PSI is 1452 and the maximun PSI is 1542 which means that there are no outliers outside the 99.73% of data within three standared deviations that exeed the design variance of 100 PSI. 
 
-### One Sample T-Test Data
+## Suspension Coil PSI One Sample T-Test
 
 The t-test hypothosises are
 
