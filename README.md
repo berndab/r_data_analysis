@@ -189,7 +189,7 @@ The results of the t-test show that the p-value is 0.4289, which is above the st
 
 The coil PSI data for the three different coil production lots were compared using the two-sample t-test. The two-sample t-test for lot 1 and lot 2 had a p-value of 0.6283 which was not sufficient to reject the null hypothesis that that there is no statistical difference between the two observed sample means. However, the two sample t-test for lot 1 and lot 3 had a p-value of 0.04218 which is significant enough to reject the null hypothesis and accept the alterative hypothesis that there is a statistical difference between the two observed sample means. Also, the two-sample t-test for lot 2 and lot 3 returned a p-value of 0.03584 which is also significant to accept the alternative hypothesis that there is a statistical difference between the two sample means. This indicates that there is a statistical difference between mean of lot 3 and means of lot 1 and 2.
 
-## Suspension Coil PSI Lot PSI Variation Analysis
+## Suspension Coil PSI Lot Variation Analysis
 
 #### Data
 
@@ -241,4 +241,8 @@ The coil PSI data for the three different coil production lots were compared usi
     </tr>
   </tbody>
 </table>
+
+### Analysis
+
+Lot 3 has a standard deviation that is 4 times as large as lot 2 and 13 times as large as lot 1. The lot 3 minimum PSI value is about 50 PSI smaller than that of lot 1 and 2 and the lot 3 maximum value is about 40 PSI larger than that of lot 1 and lot 2. Most of the variation in the coil PSI statistics is due to the significantly larger variation in PSI for the coils in lot 3. This indicates that the manufacturing process or raw materials used to produce the lot 3 coils contains deficiencies that need to be rectified.
 
