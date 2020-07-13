@@ -154,7 +154,7 @@ The t-test hypothesizes are
 The results of the t-test show that the p-value is 0.4289, which is above the standard significance level 0.05. Therefore, there is not sufficient evidence in the sample data to reject the null hypothesis and the two means are statistically similar.
 
 
-## Suspension Coil PSI Two Sample T-Test Analysis
+## Suspension Coil PSI Lot Two Sample T-Test Analysis
 
 #### Data
 
