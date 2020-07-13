@@ -130,7 +130,7 @@ Because the p-value of our linear regression analysis is 5.35e-11, which is much
 
 The suspension coil data shows that the variance of the suspension coils does not exceed 100 PSI. This fact is confirmed by two values. First standard deviation of the coil PSI is 7.89 PSI and since 99.73% of the values will be withing +/-3 standard deviations of the mean that 99.73% of the values fall withing the range of 1,475.11 and 1,522.45 PSI which well wihting the +- 100 PSI design limit. Also the coil minimun PSI is 1452 and the maximun PSI is 1542 which means that there are no outliers outside the 99.73% of data within three standared deviations that exeed the design variance of 100 PSI. 
 
-## One Sample T-Test
+## Suspension Coil PSI One Sample T-Test
 
 #### Data
 
@@ -152,7 +152,7 @@ The t-test hypothosises are
 
 The results of the t-test show that the p-value is 0.4289, which is about the standard significance level 0.05. Therefore, there is not sufficient evidence in the sample data to reject the null hypothesis and he two means are statistically similar.
 
-## Two Sample T-Test Data Comparing Lots
+## Suspension Coil PSI Two Sample T-Test Analysis
 
 #### Data
 
@@ -187,4 +187,8 @@ The results of the t-test show that the p-value is 0.4289, which is about the st
 
 The PSI data for the three different coil production lots were compared using the two sample t-test. The two sample t-test between the data from lot 1 and lot 2 had a p-value of 0.6283 which was not sufficient to reject the null hypothoiss that there is no statistical difference between the two observed sample means. However, the two sample t-test between lot 1 and lot 3 had a p-value of 0.04218 which is significant enought to reject the null hypothosis and accept the alterative hypothosis that there is a statistical difference between the two observed sample means. Applying the two sample t-test between lot 2 and lot 2 returned a p-value of 0.03584 which is also significant to accept the alternative hypothosis that there is a statistical difference between the two sample means. 
 
-## Lot PSI Variation Analysis
+## Suspension Coil PSI Lot PSI Variation Analysis
+
+#### Data
+
+
