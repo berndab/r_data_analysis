@@ -246,3 +246,4 @@ The coil PSI data for the three different coil production lots were compared usi
 
 Lot 3 has a standard deviation that is 4 times as large as lot 2 and 13 times as large as lot 1. The lot 3 minimum PSI value is about 50 PSI smaller than that of lot 1 and 2 and the lot 3 maximum value is about 40 PSI larger than that of lot 1 and lot 2. Most of the variation in the coil PSI statistics is due to the significantly larger variation in PSI for the coils in lot 3. This indicates that the manufacturing process or raw materials used to produce the lot 3 coils contains deficiencies that need to be rectified.
 
+## Additional Study Design
