@@ -7,7 +7,7 @@
 <table>
   <thead>
     <tr>
-      <td>Linear Variable</td>
+      <td>Multi Linear Variable Name</td>
       <td>Linear Coefficient</td>
       <td>Pr(>|t|)</td>
     </tr>
@@ -49,7 +49,7 @@
 <table>
   <thead>
     <tr>
-      <td>Variable</td>
+      <td>Linear Variable Name</td>
       <td>Value</td>
     </tr>
   </thead>
@@ -89,7 +89,7 @@ Because the p-value of our linear regression analysis is 5.35e-11, which is much
 <table>
   <thead>
     <tr>
-      <td>Name</td>
+      <td>Statistical Variable Name</td>
       <td>Value</td>
     </tr>
   </thead>
