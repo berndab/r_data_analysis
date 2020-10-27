@@ -1,8 +1,15 @@
-# Auto Performance Statistical Analysis Using R
+# Vehicle Manufacturing Performance Analysis Using R
 
 ## Overview
 
-A MPG linear regression model will be generate from a data set of 50 prototype vehicle models that contain the MPG value for each model along with the the design paramters of the model. The linear regression model generated will be analyzed to determine which design variable are the most accuracy in predicting the MPG value for a vehicle and have the lowest probability of contributing a random amount of variance to the linear model.
+### MPG Linear Regression Model
+
+A MPG linear regression model will be generate using R from a data set of 50 prototype vehicle models that contain the MPG value for each model along with the the design paramters of the model. The linear regression model generated will be analyzed to determine which design variable are the most accuracy in predicting the MPG value for a vehicle and have the lowest probability of contributing a random amount of variance to the linear model.
+
+### Suspension Coil Production Lot Analysis
+
+Production data for three lots of vehicle suspension coils will be analyzed to determine how consistent the suspension coil manufacturing process. 
+
 
 
 ## MPG Analysis
