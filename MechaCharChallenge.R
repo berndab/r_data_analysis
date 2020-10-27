@@ -2,7 +2,7 @@ library(ggplot2)
 library(dplyr)
 
 # Load car mpg data
-mpg_data <- read.csv('MechaCar_mpg.csv', check.names=T,stringsAsFactors = F)
+mpg_data <- read.csv('mpg.csv', check.names=T,stringsAsFactors = F)
 
 # Generate mpg multiple linear regression 
 lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance + AWD, data=mpg_data)
