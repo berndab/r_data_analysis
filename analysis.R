@@ -2,7 +2,7 @@ library(ggplot2)
 library(dplyr)
 
 # Load car mpg data
-mpg_data <- read.csv('MechaCar_mpg.csv', check.names=T,stringsAsFactors = F)
+mpg_data <- read.csv('mpg.csv', check.names=T,stringsAsFactors = F)
 
 # Generate mpg multiple linear regression 
 lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance + AWD, data=mpg_data)
@@ -12,7 +12,7 @@ summary(lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.cleara
 
 
 # Load car suspension coil data
-suspension_coil_data <- read.csv(file='Suspension_Coil.csv', check.names=F, stringsAsFactors = F)
+suspension_coil_data <- read.csv(file='suspension_coil.csv', check.names=F, stringsAsFactors = F)
 
 # Generate coil PSI statistical values
 suspension_coil_data_mean <- mean(suspension_coil_data$PSI)
