@@ -2,7 +2,7 @@
 
 ## Overview
 
-Data on the MPG values for 50 prototype car models will be analized to 
+A MPG linear regression model will be generate from a data set of 50 prototype vehicle models that contain the MPG value for each model aloing with the the design paramters of the model. The linear regression model generated will be analyzed to determine which design variable are the most accuracy in predicting the MPG value for a vehicle and have the lowest probability of contributing a random amount of variance to the linear model.
 
 
 ## MPG Analysis
