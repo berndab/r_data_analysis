@@ -1,5 +1,8 @@
 # Auto Performance Analysis
 
+## Overview
+
+Data on the MPG values for 50 prototype car models will be analized to 
 
 
 ## MPG Analysis
